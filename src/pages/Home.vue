@@ -26,7 +26,7 @@
 						</el-select>
 					</div>
 					<div class="info__text">{{ $t('textInHome') }}</div>
-					<img src="../assets/img/photos/home-cocktails.png" alt="COCKTAILS" class="info__img">
+					<img :src="'@/assets/img/photos/home-cocktails.png'" alt="COCKTAILS" class="info__img">
 				</div>
 				<div v-else class="info">
 					<div class="info__title">COCKTAILS WITH {{ingredient}} </div>
